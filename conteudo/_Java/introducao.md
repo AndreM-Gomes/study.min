@@ -7,7 +7,9 @@ ordem: 1
   pela Sun Microsystems em 1995. A linguagem Java foi criada com o propóstio 
   "Write once, run anywhere" (Escreva uma vez, rode em qualquer lugar).
 
-  Para que isso fosse posssível, os criadores da linguagem criaram a JVM. A JVM 
+  Por isso, que Java, além de uma linguagem, é uma plataforma de desenvolvimento. Outras linguagens que rodam na JVM foram criadas posteriormente, como o Kotlin, Groovy, Scala, Clojure entre outras. O sistema operacional Android também utiliza uma JVM para executar aplicativos que são escritos em Java (empacotados em arquivos .apk), sendo esta JVM otimizada para a escassez de recursos na plataforma mobile.
+
+  Para que isso fosse possível, os criadores da linguagem criaram a JVM. A JVM 
   (Java Virtual Machine - Máquina Virtual JAVA) é  uma camada
   de abstração do Sistema Operacional hospedeiro. Ela executa os chamados 
   _**bytecodes**_ (códigos java compilados para a código da JVM), enviando 
@@ -94,16 +96,19 @@ O programa o arquivo .class será carregado na memória e o programa será execu
  exibindo no terminal a mensagem "Olá Mundo".
 
 Os próximos posts irão se começar a se aprofundar no estudo da linguagem, descrevendo
-a declaração de variáveis, estruturas sintáticas e etc.
+a declaração de variáveis, estruturas sintáticas e etc. Estes exemplos foram escritos no terminal,
+ porém os próximos passos utilizarão alguma das várias IDE’s. 
+ É recomendável que você teste várias e veja com qual se habitua melhor.
+
 
 ___
 
 ### Referências e Para saber mais:
 DEITEL, Paul; DEITEL, Harvey. Java: como programar. 10. ed. São Paulo: Pearson, 2016
 
+<a target="_blank" href="https://plataforma.bvirtual.com.br/Acervo/Publicacao/39590">Link para Biblioteca Virtual (É necessário estar logado no SUAP)</a>
+
 O livro possui uma sessão "Antes de começar" que auxilia na montagem do ambiente 
 de desenvolvimento para linguagem Java e no capítulo 1, exibe um apanhado de informações
 sobre a informática em geral e um pequeno guia do processo de desenvolvimento, similar
 a este post.
-
-<a target="_blank" href="https://plataforma.bvirtual.com.br/Acervo/Publicacao/39590">Link para Biblioteca Virtual</a>
